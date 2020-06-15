@@ -40,14 +40,14 @@ app.use(session({
 //ROUTES
 
 //ADMIN
-app.use('*admin*', (req, res, next) => {
+// app.use('*admin*', (req, res, next) => {
 
-    if (!req.session.userId) {
-        return res.status(401).json({ message: 'Du har ikke adgang'})
-    }
+//     if (!req.session.userId) {
+//         return res.status(401).json({ message: 'Du har ikke adgang'})
+//     }
 
-    next() //Hvis logget ind - så bare forsæt arbejdet - next
-})
+//     next() //Hvis logget ind - så bare forsæt arbejdet - next
+// })
 
 
 //INDEX

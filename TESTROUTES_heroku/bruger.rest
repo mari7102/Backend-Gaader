@@ -1,0 +1,30 @@
+GET http://localhost:6000/admin/brugere
+
+###
+
+GET http://localhost:6000/admin/brugere/5ee0ce627afcb30c5ca76bc0
+
+###
+
+POST http://localhost:6000/admin/brugere
+Content-Type: application/json
+
+{
+    "brugerName": "Casper",
+    "brugerEmail": "casper@gmail.com",
+    "brugerPassword": "secret"
+}
+
+###
+PATCH  http://localhost:6000/admin/brugere//5ee1d8d49b11f74474653c15
+Content-Type: application/json
+
+{
+    "brugerName": "Jesper",
+    "brugerEmail": "jesper@gmail.com",
+    "brugerPassword": "secret"
+}
+
+###
+DELETE http://localhost:6000/admin/brugere/5ee1dab7756a9e3c4c8ef6b2
+

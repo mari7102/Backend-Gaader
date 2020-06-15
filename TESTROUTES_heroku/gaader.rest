@@ -1,0 +1,29 @@
+GET http://localhost:6000/gaader
+
+###
+
+GET http://localhost:6000/gaader/5ee0ce06b9d0211f789cf105
+
+###
+
+POST http://localhost:6000/admin/gaader
+Content-Type: application/json
+
+{
+    "gaade": " En mand har et firkantet hus. Hver side vender mod syd. En bjørn går forbi. Hvilken farve har den?",
+    "gaadeSvar": "hvid"
+}
+
+
+###
+PATCH  http://localhost:6000/gaader/admin/5ee0ce06b9d0211f789cf105
+Content-Type: application/json
+
+{
+    "gaade": "Solen er rød",
+    "gaadeSvar": "nej den er varm"
+}
+
+###
+DELETE http://localhost:6000/gaader/admin/5ee1d9de9b11f74474653c16
+
