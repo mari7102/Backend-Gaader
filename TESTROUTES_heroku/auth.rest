@@ -1,17 +1,17 @@
-POST http://localhost:6000/auth/login
+POST https://gaader-server.herokuapp.com/auth/login
 Content-Type: application/json
 
 {
-    "brugerEmail": "casper@gmail.com",
+    "brugerEmail": "kumu@gmail.com",
     "brugerPassword": "secret"
 }
 ###
 
-GET http://localhost:6000/auth/logout
+GET https://gaader-server.herokuapp.com/auth/logout
 
 ###
 
-GET http://localhost:6000/auth/loggedin
+GET https://gaader-server.herokuapp.com/auth/loggedin
 
 
 
