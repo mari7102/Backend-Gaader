@@ -53,7 +53,7 @@ app.use(session({
 //INDEX
 app.get('/', async (req, res) => {
     console.log("Velkommen til serveren!!")
-    res.send("<h1>hej - velkommen til serveren</h1>")
+    res.send("<h1>Hejsa! - velkommen til serveren</h1>")
 })
 
 

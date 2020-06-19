@@ -16,12 +16,12 @@ Content-Type: application/json
 
 
 ###
-PATCH  https://gaader-server.herokuapp.com/gaader/admin/5eeb191588bc4a0017365c47
+PATCH  https://gaader-server.herokuapp.com/gaader/admin/5eec6c0012f7be001727b437
 Content-Type: application/json
 
 {
     "gaade": "Solen er rød",
-    "gaadeSvar": "nej den er varm"
+    "gaadeSvar": "nej den er varm lige her"
 }
 
 ###

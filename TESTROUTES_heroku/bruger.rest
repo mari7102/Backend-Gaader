@@ -2,7 +2,7 @@ GET https://gaader-server.herokuapp.com/admin/brugere
 
 ###
 
-GET https://gaader-server.herokuapp.com/admin/brugere/5ee0ce627afcb30c5ca76bc0
+GET https://gaader-server.herokuapp.com/admin/brugere/5ee7482163f26e47bc06818
 
 ###
 
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH  https://gaader-server.herokuapp.com/admin/brugere//5ee1d8d49b11f74474653c15
+PATCH  https://gaader-server.herokuapp.com/admin/brugere/5ee1d8d49b11f74474653c15
 Content-Type: application/json
 
 {
