@@ -56,16 +56,16 @@ app.get('/', async (req, res) => {
 })
 
 
-//ADMIN
-// app.use('*/admin*', (req, res, next) => {
+// ADMIN
+app.use('*/admin*', (req, res, next) => {
 
-//     if (!req.session.userId) {
-//         return res.status(401).json({ message: 'Du har ikke adgang - du skal være logget ind' })
-//     }
+    if (!req.session.userId) {
+        return res.status(401).json({ message: 'Du har ikke adgang - du skal være logget ind' })
+    }
 
-//     //Hvis logget ind - så bare forsæt arbejdet - next
-//     next();
-// })
+    //Hvis logget ind - så bare forsæt arbejdet - next
+    next();
+})
 
 
 
@@ -80,8 +80,8 @@ app.use('/admin/brugere', brugerRouter);
 
 
 // //AUTH route - 
-// const authRouter = require('./routes/auth');
-// app.use('/auth', authRouter);
+const authRouter = require('./routes/auth');
+app.use('/auth', authRouter);
 
 
 app.listen(PORT, () => console.log('Server Started - lytter på port' + PORT));

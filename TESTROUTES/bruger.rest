@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH  http://localhost:6000/admin/brugere//5ee1d8d49b11f74474653c15
+PATCH  http://localhost:6000/admin/brugere/5ee1d8d49b11f74474653c15
 Content-Type: application/json
 
 {

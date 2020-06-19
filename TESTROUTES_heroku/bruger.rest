@@ -10,8 +10,8 @@ POST https://gaader-server.herokuapp.com/admin/brugere
 Content-Type: application/json
 
 {
-    "brugerName": "kumu",
-    "brugerEmail": "kumu@gmail.com",
+    "brugerName": "Sissi",
+    "brugerEmail": "sissi@gmail.com",
     "brugerPassword": "secret"
 }
 

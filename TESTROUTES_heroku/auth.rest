@@ -2,9 +2,10 @@ POST https://gaader-server.herokuapp.com/auth/login
 Content-Type: application/json
 
 {
-    "brugerEmail": "kumu@gmail.com",
+    "brugerEmail": "sissi@gmail.com",
     "brugerPassword": "secret"
 }
+
 ###
 
 GET https://gaader-server.herokuapp.com/auth/logout

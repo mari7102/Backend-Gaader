@@ -19,6 +19,8 @@ router.post('/login', async (req, res) => {
     //Der belv fundet en bruger:
     bruger.comparePassword(brugerPassword, function (err, isMatch) {
 
+            console.log(bruger);
+            
         //Enten fik det ikke så godt = err (error)
         if (err) {
             throw err;
