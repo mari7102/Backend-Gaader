@@ -53,6 +53,7 @@ app.use(session({
 //INDEX
 app.get('/', async (req, res) => {
     console.log("Velkommen til serveren!!")
+    res.send("<h1>hej - velkommen til serveren</h1>")
 })
 
 
@@ -81,6 +82,7 @@ app.use('/admin/brugere', brugerRouter);
 
 // //AUTH route - 
 const authRouter = require('./routes/auth');
+const { response } = require('express');
 app.use('/auth', authRouter);
 
 

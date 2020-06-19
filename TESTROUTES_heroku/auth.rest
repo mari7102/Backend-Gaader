@@ -6,6 +6,7 @@ Content-Type: application/json
     "brugerPassword": "secret"
 }
 
+
 ###
 
 GET https://gaader-server.herokuapp.com/auth/logout
@@ -14,6 +15,7 @@ GET https://gaader-server.herokuapp.com/auth/logout
 
 GET https://gaader-server.herokuapp.com/auth/loggedin
 
+###
 
 
 
