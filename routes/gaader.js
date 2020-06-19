@@ -59,18 +59,18 @@ router.patch('/admin/:id', getGaader, async (req, res) => {
 })
 
 //ADMIN
-router.post('/', async (req, res) => {
-    console.log("POST", req.body);
+// router.post('/', async (req, res) => {
+//     console.log("POST", req.body);
 
-    const gaade = new Gaader(req.body);
+//     const gaade = new Gaader(req.body);
 
-    try{
-        const nygaade = await gaade.save();
-        res.status(201.json({message: Ny gaade er oprettet, nygaade: nygaade});
-    } catch (error) {
-        res.status(400.json({message: "Der er sket en fejl", error:error}))
-    }
-})
+//     try{
+//         const nygaade = await gaade.save();
+//         res.status(201.json({message: Ny gaade er oprettet, nygaade: nygaade});
+//     } catch (error) {
+//         res.status(400.json({message: "Der er sket en fejl", error:error}))
+//     }
+// })
 
 
 //Deleting one 
